@@ -1,0 +1,16 @@
+{
+  "name": "founders-kit-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp startup coach bot powered by Claude",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "groq-sdk": "^0.9.0",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "whatsapp-web.js": "^1.26.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
